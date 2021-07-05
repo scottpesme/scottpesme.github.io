@@ -1,0 +1,1 @@
+Pour compiler la page "index", run: python2.7 jemdoc.py -c abstract.panel index.jemdoc
