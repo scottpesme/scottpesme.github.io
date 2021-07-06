@@ -1,7 +1,6 @@
 # jemdoc: menu{MENU}{index.html}
 # addjs{Dropbox/Website/jquery}
-
-= Scott Pesme
+=Scott Pesme
 
 ~~~
 {}{img_left}{Photo/Scott_Lyngen.jpg}{}{200px}{241px}{}
@@ -37,12 +36,17 @@ My main research interests are at the intersection between optimisation and stat
 *Abstract:* Understanding the implicit bias of training algorithms is of crucial importance in order to explain the success of overparametrised neural networks. In this paper, we study the dynamics of stochastic gradient descent over diagonal linear networks through its continuous time version, namely stochastic gradient flow. We explicitly characterise the solution chosen by the stochastic flow and prove that it always enjoys better generalisation properties than that of gradient flow. Quite surprisingly, we show that the convergence speed of the training loss controls the magnitude of the biasing effect: the slower the convergence, the better the bias. To fully complete our analysis, we provide convergence guarantees for the dynamics. We also give experimental results which support our theoretical claims. Our findings highlight the fact that structured noise can induce better generalisation and they help explain the greater performances observed in practice of stochastic gradient descent over gradient descent.
 \<\/div\>
 
-- S. Pesme, N. Flammarion. *Online Robust Regression via SGD on the l1 loss*. 
+- S. Pesme, N. Flammarion. *Online Robust Regression via SGD on the ℓ1 loss*. 
 \n \[[https://arxiv.org/abs/2007.00399 arxiv], [Articles/Neurips_Camera_ready.pdf pdf]\], /NeurIPS/, 2020. 
-
+\<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\<div class=\"toggle-wrap\"\>
+*Abstract:* 
+We consider the robust linear regression problem in the online setting where we have access to the data in a streaming manner, one data point after the other.  More specifically, for a true parameter θ∗, we consider the corrupted Gaussian linear model y=〈x,  θ∗〉\+ ε + b where the adversarial noise b can take any value with probability η and equals zero otherwise. We consider this adversary to be oblivious (i.e., b independent of the data) since this is the only contamination model under which consistency is possible. Current algorithms rely on having the whole data at hand in order to identify and remove the outliers. In contrast, we show in this work that stochastic gradient descent on the ℓ1 loss converges to the true parameter vector at a  ̃O(1/(1−η)2n) rate which is independent of the values of the contaminated measurements. Our proof relies on the elegant smoothing of the non-smooth ℓ1 loss by the Gaussian data and a classical non-asymptotic analysis of Polyak-Ruppert averaged SGD. In addition, we provide experimental evidence of the efficiency of this simple and highly scalable algorithm.
+\<\/div\>
 
 - S. Pesme, A. Dieuleveut, N. Flammarion.\n*On Convergence-Diagnostic based Step Sizes for Stochastic Gradient Descent*. 
-\n \[[https://arxiv.org/abs/2007.00534 arxiv], [Articles/ICML_camera_ready.pdf pdf]\], /ICML/, 2020. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\n \[[https://arxiv.org/abs/2007.00534 arxiv], [Articles/ICML_camera_ready.pdf pdf]\], /ICML/, 2020. 
+\<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>
 *Abstract:* Constant step-size Stochastic Gradient Descent exhibits two phases: a transient phase during which iterates make fast progress towards the optimum, followed by a stationary phase during which iterates oscillate around the optimal point. In this paper, we show that efficiently detecting this transition and appropriately decreasing the step size can lead to fast convergence rates. We analyse the classical statistical test proposed by Pflug (1983), based on the inner product between consecutive stochastic gradients. Even in the simple case where the objective function is quadratic we show that this test cannot lead to an adequate convergence diagnostic. We then propose a novel and simple statistical procedure that accurately detects stationarity and we provide experimental results showing state-of-the-art performance on synthetic and real-world datasets. 
 \<\/div\>

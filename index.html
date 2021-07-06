@@ -14,7 +14,7 @@
 <div class="menu-category">Scott Pesme</div>
 <div class="menu-item"><a href="index.html" class="current">Home</a></div>
 <div class="menu-item"><a href="about_me.html">About&nbsp;me</a></div>
-<div class="menu-item"><a href="enigmas.html">Enigmas</a></div>
+<div class="menu-item"><a href="enigmas.html">Riddles</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
@@ -53,13 +53,19 @@ I did my master thesis in convex optimisation at EPFL in the MLO group under the
 </li>
 </ul>
 <ul>
-<li><p>S. Pesme, N. Flammarion. <b>Online Robust Regression via SGD on the l1 loss</b>. 
-<br /> [<a href="https://arxiv.org/abs/2007.00399">arxiv</a>, <a href="Articles/Neurips_Camera_ready.pdf">pdf</a>], <i>NeurIPS</i>, 2020. </p>
+<li><p>S. Pesme, N. Flammarion. <b>Online Robust Regression via SGD on the ℓ1 loss</b>. 
+<br /> [<a href="https://arxiv.org/abs/2007.00399">arxiv</a>, <a href="Articles/Neurips_Camera_ready.pdf">pdf</a>], <i>NeurIPS</i>, 2020. 
+<span class="toggle-trigger">[Show Abstract]<span> 
+<div class="toggle-wrap">
+<b>Abstract:</b> 
+We consider the robust linear regression problem in the online setting where we have access to the data in a streaming manner, one data point after the other.  More specifically, for a true parameter θ∗, we consider the corrupted Gaussian linear model y=〈x,  θ∗〉+ ε + b where the adversarial noise b can take any value with probability η and equals zero otherwise. We consider this adversary to be oblivious (i.e., b independent of the data) since this is the only contamination model under which consistency is possible. Current algorithms rely on having the whole data at hand in order to identify and remove the outliers. In contrast, we show in this work that stochastic gradient descent on the ℓ1 loss converges to the true parameter vector at a  ̃O(1/(1−η)2n) rate which is independent of the values of the contaminated measurements. Our proof relies on the elegant smoothing of the non-smooth ℓ1 loss by the Gaussian data and a classical non-asymptotic analysis of Polyak-Ruppert averaged SGD. In addition, we provide experimental evidence of the efficiency of this simple and highly scalable algorithm.
+</div></p>
 </li>
 </ul>
 <ul>
 <li><p>S. Pesme, A. Dieuleveut, N. Flammarion.<br /><b>On Convergence-Diagnostic based Step Sizes for Stochastic Gradient Descent</b>. 
-<br /> [<a href="https://arxiv.org/abs/2007.00534">arxiv</a>, <a href="Articles/ICML_camera_ready.pdf">pdf</a>], <i>ICML</i>, 2020. <span class="toggle-trigger">[Show Abstract]<span> 
+<br /> [<a href="https://arxiv.org/abs/2007.00534">arxiv</a>, <a href="Articles/ICML_camera_ready.pdf">pdf</a>], <i>ICML</i>, 2020. 
+<span class="toggle-trigger">[Show Abstract]<span> 
 <div class="toggle-wrap">
 <b>Abstract:</b> Constant step-size Stochastic Gradient Descent exhibits two phases: a transient phase during which iterates make fast progress towards the optimum, followed by a stationary phase during which iterates oscillate around the optimal point. In this paper, we show that efficiently detecting this transition and appropriately decreasing the step size can lead to fast convergence rates. We analyse the classical statistical test proposed by Pflug (1983), based on the inner product between consecutive stochastic gradients. Even in the simple case where the objective function is quadratic we show that this test cannot lead to an adequate convergence diagnostic. We then propose a novel and simple statistical procedure that accurately detects stationarity and we provide experimental results showing state-of-the-art performance on synthetic and real-world datasets. 
 </div></p>
@@ -68,7 +74,7 @@ I did my master thesis in convex optimisation at EPFL in the MLO group under the
 <p>You can have a look at my <a href="https://scholar.google.com/citations?user=BwCLRb0AAAAJ&amp;hl=en">Google scholar</a> webpage, though you will not find any additional paper.</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2021-07-06 08:30:00 CEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2021-07-06 16:30:46 CEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
@@ -83,12 +89,8 @@ $(document).ready(function() {
 });
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121611765-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QVEBWYTRFM"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-121611765-1');
-</script>
-</body>
-</html>
