@@ -7,15 +7,15 @@ table#tlayout {
 
 body {
 	background: white;
-	/*font-family: Georgia, serif; */
-	font-family: Futura;
+	font-family: Helvetica; 
+	/* font-family: Futura; */
 	padding-bottom: 8px;
 	margin: 0;
 }
 
 #layout-menu {
-	background: #fa625f;
-	font-size: 1.0em;
+	background: #0074D9;
+	font-size: 1.1em;
 	width: auto;
 	white-space: nowrap;
     text-align: left;
@@ -372,7 +372,8 @@ table.imgtable, table.imgtable td {
 
     padding: 1px;
     background: white;
-	font-family: Futura, serif;
+	/* font-family: Futura, serif; */
+	font-family: Helvetica;
 	padding-bottom: 1px;
 	margin: 0;
 	cursor: pointer;
@@ -388,7 +389,8 @@ table.imgtable, table.imgtable td {
     padding: 1px;
     display: none;
     background: white;
-	font-family: Futura, serif;
+	/* font-family: Futura, serif; */
+	font-family: Helvetica;
 	padding-bottom: 8px;
 	margin: 0;
 }

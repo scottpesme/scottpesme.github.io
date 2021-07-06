@@ -1,0 +1,47 @@
+# jemdoc: menu{MENU}{enigmas.html}
+=Enigmas
+
+I enjoy trying to solve enigmas. If you too, here is a small selection of my favourite. 
+Please don't hesitate to drop me an email 
+if you want 
+to share with me one of your own or
+if you want to discuss about a solution. 
+
+*Tiling *
+\n
+~~~
+{}{img_left}{Illustrations/8x8-Board.png}{}{100px}{100px}{}
+Using 2x1 dominoes, is it possible to tile a 8x8 board which has its top left and bottom right pieces missing ? 
+~~~
+
+*Filling a hypercube*
+\n
+Is it possible to fill a 6x6x6 cube using only 4x1x1 sticks ? 
+
+*The cat and the duck*
+\n
+A duck is enjoying a nice swim in the center of a circular pond when a hydrophobic cat appears.
+The cat can move itself on land 4 times faster than the duck can in the water, but cannot swim. 
+Whatever the cat's strategy, is it possible for the duck to reach dry land without the cat 
+eating him when he reaches it ? 
+
+*The boat and the rock*
+\n
+You are on a fishing boat in the middle of a lake.  You throw a rock which you had in your pocket 
+in the water. Will the level of the water rise, decrease or stay the same ?
+
+*Ancient chronometer*
+\n
+You have a lighter as well as two ropes which burn in 
+an hour if you light them up. However they do not burn at the same speed and
+do not burn linearly, meaning that it does not necessarily take 
+30 minutes for half of a rope to burn. How can you measure 45 minutes using these two ropes ?
+
+
+
+
+
+
+
+
+
