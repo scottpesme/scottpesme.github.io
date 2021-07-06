@@ -37,6 +37,15 @@ an hour if you light them up. However they do not burn at the same speed and
 do not burn linearly, meaning that it does not necessarily take 
 30 minutes for half of a rope to burn. How can you measure 45 minutes using these two ropes ?
 
+*The circle and the triangle*
+\n
+Pick uniformly 3 points on a circle. What is the probability that the center of the circle 
+is inside the triangle formed by these 3 points ?
+
+*1, 2, or 3*
+\n
+Assume I choose a number between 1, 2, or 3. You can ask me any question to which I truthfully 
+answer either yes, no or I don't know. What question should you ask me in order to know my number ? 
 
 
 
