@@ -75,7 +75,7 @@ class controlstruct(object):
     self.eqdir = eqdir
     self.eqdpi = eqdpi
     # Default to supporting equations until we know otherwise.
-    self.eqsupport = True
+    self.eqsupport = False
     self.eqcache = True
     self.eqpackages = []
     self.texlines = []
@@ -164,6 +164,12 @@ def standardconf():
   
   [bodystart]
   </head>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$']]}});
+  </script>
+  <script type="text/javascript"
+    src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
   <body>
   
   [analytics]
