@@ -40,7 +40,7 @@ do not burn linearly, meaning that it does not necessarily take
 ~~~
 {}{img_left}{Illustrations/Triangle.png}{}{150px}{140px}{}
 Pick uniformly 3 points on a circle. What is the probability that the center of the circle 
-is inside the triangle formed by these 3 points ? And in dimension $3$ with $4$ uniform points on the sphere ?
+is inside the triangle formed by these 3 points ? What about in dimension 3 with 4 uniform points on the sphere ?
 ~~~
 
 *1, 2, or 3*
