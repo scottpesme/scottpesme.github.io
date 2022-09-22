@@ -67,6 +67,25 @@ the air to the right?
 \n
 Same question as before, but now assuming that there is a small but heavy object attached at the end of the cable.
 
+*Arithmetic frogs*
+\n
+Consider 100 aligned water lilies on a lake with a light bulb on each of them. We number them from 1 to 100. There are 100 frogs, each time a frog leaps on a water lily, the light bulb on it changes its state (on to off, or off to on). The first frog jumps on all the water lilies, the second jumps on all the even water lilies, the third on those which are multiples of 3 etc. until the last frog only jumps on the last water lily. 
+The light bulbs are initially all off. Which light bulbs are on once all frogs have passed ?
+
+
+*Prisoner's riddle*
+\n
+You and a fellow prisoner are imprisoned in a dungeon and are facing execution. The prison warden wants to give you and your cellmate a chance of freedom but doesn't want to make it too easy for you.
+She has a chessboard where each square is covered by a coin — either heads or tails. Moreover it’s a special chess board with a hidden compartment in each square. A single one of these squares contains a symbolic key to the jail and freedom for you and your cell companion. 
+You will know which square contains the key and your fellow prisoner has to guess.
+The rules are as follows: \n 
+- You and your cellmate can discuss how to encode a message using the chessboard but the prison warden can hear and understand everything that you say. \n 
+- Once you have decided on a system, your companion leaves the room. \n 
+- You observe the prison warden hiding the key in one square and then arranging the 64 coins as heads or tails however she deems fit. \n 
+- You then turn over exactly one coin on the chess board and leave the room. \n 
+- Your companion re-enters the room, without having any opportunity to see or communicate with you. He observes the chessboard and the arrangement of coins and points to the square where he believes the key and freedom reside.
+
+
 
 
 
