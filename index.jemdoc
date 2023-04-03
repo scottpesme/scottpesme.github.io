@@ -6,7 +6,7 @@
 {}{img_left}{Photo/Scott_Lyngen.jpg}{}{200px}{241px}{}
 
 == Hi !
-I am fourth year PhD student at EPFL in the fantastic [https://www.epfl.ch/labs/tml/ Theory of Machine Learning group] under the supervision of [https://www.di.ens.fr/~flammarion/ Nicolas Flammarion].
+I am fourth year PhD student at EPFL in the [https://www.epfl.ch/labs/tml/ Theory of Machine Learning group] under the supervision of [https://people.epfl.ch/nicolas.flammarion Nicolas Flammarion]. From March 2023 to July 2023, I will be visiting Taiji Suzuki's lab at the Tokyo university and RIKEN AIP.
 
 I graduated from [https://www.polytechnique.edu/ École Polytechnique] in 2019 and have a master degree from [https://ens-paris-saclay.fr/en/ ENS Paris-Saclay] in mathematics, vision and machine learning ([https://www.master-mva.com/ MVA]).
 I did my master thesis in convex optimisation at EPFL in the MLO group under the supervision of [http://www.cmap.polytechnique.fr/~aymeric.dieuleveut/ Aymeric Dieuleveut] and [https://people.epfl.ch/martin.jaggi Martin Jaggi].
@@ -20,15 +20,23 @@ I did my master thesis in convex optimisation at EPFL in the MLO group under the
 
 == Research interests
 
-My main research interests are at the intersection between optimisation and statistics. Here are the research topics I am interested in:
-
-- Optimisation methods in machine learning and their implicit bias
-- Stochastic Differential Equations and how they can help understand optimisation algorithms such as SGD
+My main research interests are at the intersection between optimisation and statistics. I am interested in looking at the implicit bias as well as the training dynamics of optimisation methods in "deep" learning. For this I have mainly focused on diagonal linear networks, which is a drastic  but enlightening simplification of complex architectures.
 
 == Publications
 
 \<p style=\"margin-bottom:1cm;\"> \</p\>
 
+- S. Pesme, N. Flammarion. *Saddle-to-Saddle Dynamics in Diagonal Linear Networks*. 
+\n \[[Articles/saddle-to-saddle.pdf pdf]\], /arXiv/, 2023. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\<div class=\"toggle-wrap\"\>
+*Abstract:* Inthispaperwefullydescribethetrajectoryofgradientflowoverdiagonallinearnetworksinthe limit of vanishing initialisation. We show that the limiting flow successively jumps from a saddle of the training loss to another until reaching the minimum $\\ell_1$-norm solution. This saddle-to-saddle dynamics translates to an incremental learning process as each saddle corresponds to the minimiser of the loss constrained to an active set outside of which the coordinates must be zero. We explicitly characterise the visited saddles as well as the jumping times through a recursive algorithm reminiscent of the Homotopy algorithm used for computing the Lasso path. Our proof leverages a convenient arc-length time-reparametrisation which enables to keep track of the heteroclinic transitions between the jumps. Our analysis requires negligible assumptions on the data, applies to both under and overparametrised settings and covers complex cases where there is no monotonicity of the number of active coordinates. We provide numerical experiments to support our findings.
+\<\/div\>
+
+- M. Even, S. Pesme, S. Gunasekar, N. Flammarion. *(S)GD over Diagonal Linear Networks: Implicit Regularisation, Large Stepsizes and Edge of Stability*. 
+\n \[[https://arxiv.org/abs/2302.08982 arxiv], [Articles/stepsizes.pdf pdf]\], /arXiv/, 2023. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\<div class=\"toggle-wrap\"\>
+*Abstract:* In this paper, we investigate the impact of stochasticity and large stepsizes on the implicit regularisation of gradient descent (GD) and stochastic gradient descent (SGD) over diagonal linear networks. We prove the convergence of GD and SGD with macroscopic stepsizes in an overparametrised regression setting and characterise their solutions through an implicit regularisation problem. Our crisp characterisation leads to qualitative insights about the impact of stochasticity and stepsizes on the recovered solution. Specifically, we show that large stepsizes consistently benefit SGD for sparse regression problems, while they can hinder the recovery of sparse solutions for GD. These effects are magnified for stepsizes in a tight window just below the divergence threshold, in the “edge of stability” regime. Our findings are supported by experimental results.
+\<\/div\>
 
 - S. Pesme, L. Pillaud-Vivien, N. Flammarion. *Implicit Bias of SGD for Diagonal Linear Networks: a Provable Benefit of Stochasticity*. 
 \n \[[Articles/Neurips2021_poster.png poster], [https://francisbach.com/implicit-bias-sgd/ blogpost], [Presentations/Flair_april_2022.pdf slides], [https://arxiv.org/abs/2106.09524 arxiv], [Articles/implicit_bias_SGD_DNN.pdf pdf]\], /NeurIPS/, 2021. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
