@@ -20,11 +20,14 @@ I did my master thesis in convex optimisation at EPFL in the MLO group under the
 
 == Research interests
 
-My main research interests are at the intersection between optimisation and statistics. I am interested in looking at the implicit bias as well as the training dynamics of optimisation methods in "deep" learning. For this I have mainly focused on diagonal linear networks, which is a drastic  but enlightening simplification of complex architectures.
+My main research interests are at the intersection between optimisation and statistics. I am interested in looking at the implicit bias as well as the training dynamics of optimisation methods in "deep" learning. For this I have mainly focused on diagonal linear networks, which is a drastic  but enlightening simplification of complex architectures. \n
+
+If you want a friendly introduction to the concept of implicit bias, I would recommend having a look at the [https://francisbach.com/implicit-bias-sgd/ blogpost] we had the opportunity to write with [https://www.di.ens.fr/~pillaud/ Loucas] on Francis Bach's blog. There is also a very nice [https://francisbach.com/rethinking-sgd-noise/ blogpost] by Loucas which speaks about the structure of SGD's noise.  
 
 == Publications
 
 \<p style=\"margin-bottom:1cm;\"> \</p\>
+If you are interested in the content of one of the papers, I would recommend having a look at the Twitter thread (or at the blogpost for the Neurips 2021 paper) before reading the paper. I like these formats as they allow to explain things in a (hopefully) more friendly way!\n
 
 - S. Pesme, N. Flammarion. *Saddle-to-Saddle Dynamics in Diagonal Linear Networks*. 
 \n \[[https://arxiv.org/abs/2304.00488 arxiv], [Articles/saddle-to-saddle.pdf pdf]\], /arXiv/, 2023. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
@@ -33,7 +36,7 @@ My main research interests are at the intersection between optimisation and stat
 \<\/div\>
 
 - M. Even, S. Pesme, S. Gunasekar, N. Flammarion. *(S)GD over Diagonal Linear Networks: Implicit Regularisation, Large Stepsizes and Edge of Stability*. 
-\n \[[https://arxiv.org/abs/2302.08982 arxiv], [Articles/stepsizes.pdf pdf]\], /arXiv/, 2023. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\n \[[https://twitter.com/pesme_scott/status/1643275722109366272 twitter thread], [https://arxiv.org/abs/2302.08982 arxiv], [Articles/stepsizes.pdf pdf]\], /arXiv/, 2023. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>
 *Abstract:* In this paper, we investigate the impact of stochasticity and large stepsizes on the implicit regularisation of gradient descent (GD) and stochastic gradient descent (SGD) over diagonal linear networks. We prove the convergence of GD and SGD with macroscopic stepsizes in an overparametrised regression setting and characterise their solutions through an implicit regularisation problem. Our crisp characterisation leads to qualitative insights about the impact of stochasticity and stepsizes on the recovered solution. Specifically, we show that large stepsizes consistently benefit SGD for sparse regression problems, while they can hinder the recovery of sparse solutions for GD. These effects are magnified for stepsizes in a tight window just below the divergence threshold, in the “edge of stability” regime. Our findings are supported by experimental results.
 \<\/div\>

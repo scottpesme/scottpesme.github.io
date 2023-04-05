@@ -639,7 +639,11 @@ def replacelinks(b):
       # remove any mailto before labelling.
       linkname = re.sub('^mailto:', '', link)
 
-    b = b[:m.start()] + r'<a href=\"%s\">%s<\/a>' % (link, linkname) + b[m.end():]
+    # SCOTT: I modified the following line in april 2023, by adding target = "_blank"
+    # OLD VERSION:
+    # b = b[:m.start()] + r'<a href=\"%s\">%s<\/a>' % (link, linkname) + b[m.end():]
+    # NEW VERSION
+    b = b[:m.start()] + r'<a href=\"%s\" target="_blank" >%s<\/a>' % (link, linkname) + b[m.end():]
 
     m = r.search(b, m.start())
 
