@@ -6,7 +6,7 @@
 {}{img_left}{Photo/MumsDrawing.jpg}{}{200px}{241px}{}
 
 == Hi !
-I am fourth year PhD student at EPFL in the [https://www.epfl.ch/labs/tml/ Theory of Machine Learning group] under the supervision of [https://people.epfl.ch/nicolas.flammarion Nicolas Flammarion]. From March 2023 to July 2023, I will be visiting [http://ibis.t.u-tokyo.ac.jp/suzuki/ Taiji Suzuki]'s lab at the University of Tokyo and RIKEN AIP.
+I am fifth year PhD student at EPFL in the [https://www.epfl.ch/labs/tml/ Theory of Machine Learning group] under the supervision of [https://people.epfl.ch/nicolas.flammarion Nicolas Flammarion]. 
 
 I graduated from [https://www.polytechnique.edu/ École Polytechnique] in 2019 and have a master degree from [https://ens-paris-saclay.fr/en/ ENS Paris-Saclay] in mathematics, vision and machine learning ([https://www.master-mva.com/ MVA]).
 I did my master thesis in convex optimisation at EPFL in the MLO group under the supervision of [http://www.cmap.polytechnique.fr/~aymeric.dieuleveut/ Aymeric Dieuleveut] and [https://people.epfl.ch/martin.jaggi Martin Jaggi].
@@ -30,7 +30,7 @@ If you want a friendly introduction to the concept of implicit bias, I would rec
 If you are interested in the content of one of the papers, I would recommend having a look at the Twitter thread (or at the blogpost for the Neurips 2021 paper) before reading the paper. I like these formats as they allow to explain things in a (hopefully) more friendly way!
 
 - S. Pesme, N. Flammarion. *Saddle-to-Saddle Dynamics in Diagonal Linear Networks*. 
-\n \[[https://arxiv.org/abs/2304.00488 arxiv], [Articles/Neurips_s2s-CR.pdf pdf]\],  /NeurIPS/ 2023. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\n \[[https://twitter.com/pesme_scott/status/1721930808477323664 twitter thread], [https://arxiv.org/abs/2304.00488 arxiv], [Articles/Neurips_s2s-CR.pdf pdf]\],  /NeurIPS/ 2023. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>
 *Abstract:* In this paper we fully describe the trajectory of gradient flow over diagonal linear networks in the limit of vanishing initialisation. We show that the limiting flow successively jumps from a saddle of the training loss to another until reaching the minimum $\\ell_1$-norm solution. This saddle-to-saddle dynamics translates to an incremental learning process as each saddle corresponds to the minimiser of the loss constrained to an active set outside of which the coordinates must be zero. We explicitly characterise the visited saddles as well as the jumping times through a recursive algorithm reminiscent of the Homotopy algorithm used for computing the Lasso path. Our proof leverages a convenient arc-length time-reparametrisation which enables to keep track of the heteroclinic transitions between the jumps. Our analysis requires negligible assumptions on the data, applies to both under and overparametrised settings and covers complex cases where there is no monotonicity of the number of active coordinates. We provide numerical experiments to support our findings.
 \<\/div\>

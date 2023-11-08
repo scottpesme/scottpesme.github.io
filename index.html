@@ -29,7 +29,7 @@ MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$']]}});
 <table class="imgtable"><tr><td>
 <img src="Photo/MumsDrawing.jpg" alt="" width="200px" height="241px" />&nbsp;</td>
 <td align="left"><h2>Hi !</h2>
-<p>I am fourth year PhD student at EPFL in the <a href="https://www.epfl.ch/labs/tml/" target=&ldquo;_blank&rdquo; >Theory of Machine Learning group</a> under the supervision of <a href="https://people.epfl.ch/nicolas.flammarion" target=&ldquo;_blank&rdquo; >Nicolas Flammarion</a>. From March 2023 to July 2023, I will be visiting <a href="http://ibis.t.u-tokyo.ac.jp/suzuki/" target=&ldquo;_blank&rdquo; >Taiji Suzuki</a>'s lab at the University of Tokyo and RIKEN AIP.</p>
+<p>I am fifth year PhD student at EPFL in the <a href="https://www.epfl.ch/labs/tml/" target=&ldquo;_blank&rdquo; >Theory of Machine Learning group</a> under the supervision of <a href="https://people.epfl.ch/nicolas.flammarion" target=&ldquo;_blank&rdquo; >Nicolas Flammarion</a>. </p>
 <p>I graduated from <a href="https://www.polytechnique.edu/" target=&ldquo;_blank&rdquo; >École Polytechnique</a> in 2019 and have a master degree from <a href="https://ens-paris-saclay.fr/en/" target=&ldquo;_blank&rdquo; >ENS Paris-Saclay</a> in mathematics, vision and machine learning (<a href="https://www.master-mva.com/" target=&ldquo;_blank&rdquo; >MVA</a>).
 I did my master thesis in convex optimisation at EPFL in the MLO group under the supervision of <a href="http://www.cmap.polytechnique.fr/~aymeric.dieuleveut/" target=&ldquo;_blank&rdquo; >Aymeric Dieuleveut</a> and <a href="https://people.epfl.ch/martin.jaggi" target=&ldquo;_blank&rdquo; >Martin Jaggi</a>.</p>
 <h2>Contact</h2>
@@ -48,7 +48,7 @@ I did my master thesis in convex optimisation at EPFL in the MLO group under the
 If you are interested in the content of one of the papers, I would recommend having a look at the Twitter thread (or at the blogpost for the Neurips 2021 paper) before reading the paper. I like these formats as they allow to explain things in a (hopefully) more friendly way!</p>
 <ul>
 <li><p>S. Pesme, N. Flammarion. <b>Saddle-to-Saddle Dynamics in Diagonal Linear Networks</b>. 
-<br /> [<a href="https://arxiv.org/abs/2304.00488" target=&ldquo;_blank&rdquo; >arxiv</a>, <a href="Articles/Neurips_s2s-CR.pdf" target=&ldquo;_blank&rdquo; >pdf</a>],  <i>NeurIPS</i> 2023. <span class="toggle-trigger">[Show Abstract]<span> 
+<br /> [<a href="https://twitter.com/pesme_scott/status/1721930808477323664" target=&ldquo;_blank&rdquo; >twitter thread</a>, <a href="https://arxiv.org/abs/2304.00488" target=&ldquo;_blank&rdquo; >arxiv</a>, <a href="Articles/Neurips_s2s-CR.pdf" target=&ldquo;_blank&rdquo; >pdf</a>],  <i>NeurIPS</i> 2023. <span class="toggle-trigger">[Show Abstract]<span> 
 <div class="toggle-wrap">
 <b>Abstract:</b> In this paper we fully describe the trajectory of gradient flow over diagonal linear networks in the limit of vanishing initialisation. We show that the limiting flow successively jumps from a saddle of the training loss to another until reaching the minimum $\ell_1$-norm solution. This saddle-to-saddle dynamics translates to an incremental learning process as each saddle corresponds to the minimiser of the loss constrained to an active set outside of which the coordinates must be zero. We explicitly characterise the visited saddles as well as the jumping times through a recursive algorithm reminiscent of the Homotopy algorithm used for computing the Lasso path. Our proof leverages a convenient arc-length time-reparametrisation which enables to keep track of the heteroclinic transitions between the jumps. Our analysis requires negligible assumptions on the data, applies to both under and overparametrised settings and covers complex cases where there is no monotonicity of the number of active coordinates. We provide numerical experiments to support our findings.
 </div></p>
@@ -92,11 +92,27 @@ We consider the robust linear regression problem in the online setting where we 
 <p>You can have a look at my <a href="https://scholar.google.com/citations?user=BwCLRb0AAAAJ&amp;hl=en" target=&ldquo;_blank&rdquo; >Google scholar</a> webpage or follow me on <a href="https://twitter.com/pesme_scott" target=&ldquo;_blank&rdquo; >Twitter</a>.</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2023-10-26 18:22:34 CEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2023-11-08 14:23:50 CET, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
 </tr>
 </table>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $(".toggle-trigger").click(function() {
+        $(this).parent().nextAll('.toggle-wrap').first().slideToggle('slow');
+    });
+});
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QVEBWYTRFM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-QVEBWYTRFM');
+</script>
 </body>
 </html>
