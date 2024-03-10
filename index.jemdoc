@@ -29,6 +29,13 @@ If you want a friendly introduction to the concept of implicit bias, I would rec
 \<p style=\"margin-bottom:1cm;\"> \</p\>
 If you are interested in the content of one of the papers, I would recommend having a look at the Twitter thread (or at the blogpost for the Neurips 2021 paper) before reading the paper. I like these formats as they allow to explain things in a (hopefully) more friendly way!
 
+- H. Papazov, S. Pesme, N. Flammarion. *Leveraging Continuous Time to Understand Momentum When Training Diagonal Linear Networks*. 
+\n \[[Articles/Implicit_Bias_Momentum.pdf pdf]\],  /AISTATS/ 2024. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\<div class=\"toggle-wrap\"\>
+*Abstract:*
+In this work, we investigate the effect of momentum on the optimisation trajectory of gradient descent. We leverage a continuous-time approach in the analysis of momentum gradient descent with step size $\\gamma$ and momentum parameter $\\beta$ that allows us to identify an intrinsic quantity $\\lambda = \\gamma /(1 - \\beta)^2 $ which uniquely defines the optimisation path and provides a simple acceleration rule. When training a $2$-layer diagonal linear network in an overparametrised regression setting, we characterise the recovered solution through an implicit regularisation problem. We then prove that small values of $\\lambda$ help to recover sparse solutions. Finally, we give similar but weaker results for stochastic momentum gradient descent. We provide numerical experiments which support our claims.
+\<\/div\>
+
 - S. Pesme, N. Flammarion. *Saddle-to-Saddle Dynamics in Diagonal Linear Networks*. 
 \n \[[Poster/A0_s2s_neurips2023_hor.jpg poster], [https://twitter.com/pesme_scott/status/1721930808477323664 twitter thread], [https://arxiv.org/abs/2304.00488 arxiv], [Articles/Neurips_s2s-CR.pdf pdf]\],  /NeurIPS/ 2023. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>
