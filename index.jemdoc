@@ -29,6 +29,14 @@ If you want a friendly introduction to the concept of implicit bias, I would rec
 \<p style=\"margin-bottom:1cm;\"> \</p\>
 If you are interested in the content of one of the papers, I would recommend having a look at the Twitter thread (or at the blogpost for the Neurips 2021 paper) before reading the paper. I like these formats as they allow to explain things in a (hopefully) more friendly way!
 
+- S. Pesme, R-A. Dragomir, N. Flammarion. *Implicit Bias of Mirror Flow on Separable Data*. 
+\n \[[https://arxiv.org/abs/2406.12763 arxiv], [Articles/Classif_neurips.pdf pdf]\]. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\<div class=\"toggle-wrap\"\>
+*Abstract:*
+We examine the continuous-time counterpart of mirror descent, namely mirror flow, on classification problems which are linearly separable. Such problems are minimised `at infinity' and have many possible solutions; we study which solution is preferred by the algorithm depending on the mirror potential. For exponential tailed losses and under mild assumptions on the potential, we show that the iterates converge in direction towards a $\\phi_\\infty$-maximum margin classifier. The function $\\phi_\\infty$ is the `horizon function' of the mirror potential and characterises its shape `at infinity'. When the potential is separable, a simple formula allows to compute this function.  We analyse several examples of potentials and provide numerical experiments highlighting our results.
+\<\/div\>
+
+
 - H. Papazov, S. Pesme, N. Flammarion. *Leveraging Continuous Time to Understand Momentum When Training Diagonal Linear Networks*. 
 \n \[[https://arxiv.org/abs/2403.05293 arxiv], [Articles/Implicit_Bias_Momentum.pdf pdf]\],  /AISTATS/ 2024. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>
