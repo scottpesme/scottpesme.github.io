@@ -6,15 +6,16 @@
 {}{img_left}{Photo/MumsDrawing.jpg}{}{200px}{241px}{}
 
 == Hi !
-I am fifth year PhD student at EPFL in the [https://www.epfl.ch/labs/tml/ Theory of Machine Learning group] under the supervision of [https://people.epfl.ch/nicolas.flammarion Nicolas Flammarion]. 
+Since October 2024, I am a post-doc in the Thoth team at Inria Grenoble, under the supervision of [https://lear.inrialpes.fr/people/mairal/ Julien Mairal]. 
+
+Prior to that, I was a PhD student at EPFL in the [https://www.epfl.ch/labs/tml/ Theory of Machine Learning group] and advised by [https://people.epfl.ch/nicolas.flammarion Nicolas Flammarion]. I defended my PhD thesis in June 2024, the thesis is entitled "Deep Learning Theory through the Lens of Diagonal Linear Networks" and you can find the manuscript [Articles/Scott_PhD_Manuscript.pdf here].
 
 I graduated from [https://www.polytechnique.edu/ École Polytechnique] in 2019 and have a master degree from [https://ens-paris-saclay.fr/en/ ENS Paris-Saclay] in mathematics, vision and machine learning ([https://www.master-mva.com/ MVA]).
 I did my master thesis in convex optimisation at EPFL in the MLO group under the supervision of [http://www.cmap.polytechnique.fr/~aymeric.dieuleveut/ Aymeric Dieuleveut] and [https://people.epfl.ch/martin.jaggi Martin Jaggi].
 
 == Contact
 
-- *Physical address*: Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland.
-- *Virtual address*: scott.pesme@epfl.ch
+- *Virtual address*: scott.pesme@inria.fr
 
 ~~~
 
@@ -22,7 +23,7 @@ I did my master thesis in convex optimisation at EPFL in the MLO group under the
 
 My main research interests are at the intersection between optimisation and statistics. I am interested in looking at the implicit bias as well as the training dynamics of optimisation methods in "deep" learning. For this I have mainly focused on diagonal linear networks, which is a drastic  but enlightening simplification of complex architectures. \n
 
-If you want a friendly introduction to the concept of implicit bias, I would recommend having a look at the [https://francisbach.com/implicit-bias-sgd/ blogpost] that [https://www.di.ens.fr/~pillaud/ Loucas] kindly proposed me to write with him for Francis Bach's blog. There is also a very nice [https://francisbach.com/rethinking-sgd-noise/ blogpost] by Loucas which speaks about the structure of SGD's noise.  
+If you want a friendly introduction to the concept of implicit bias, I would recommend having a look at the [https://francisbach.com/implicit-bias-sgd/ blogpost] that [https://www.di.ens.fr/~pillaud/ Loucas] kindly proposed me to write with him for Francis Bach's blog, you can also have a look at Chapter 2 in my [Articles/Scott_PhD_Manuscript.pdf PhD manuscript]. And if you want an introduction to diagonal linear networks, you can have a look at Chapter 3 in my [Articles/Scott_PhD_Manuscript.pdf PhD manuscript].
 
 == Publications
 
@@ -30,7 +31,7 @@ If you want a friendly introduction to the concept of implicit bias, I would rec
 If you are interested in the content of one of the papers, I would recommend having a look at the Twitter thread (or at the blogpost for the Neurips 2021 paper) before reading the paper. I like these formats as they allow to explain things in a (hopefully) more friendly way!
 
 - S. Pesme, R-A. Dragomir, N. Flammarion. *Implicit Bias of Mirror Flow on Separable Data*. 
-\n \[[https://arxiv.org/abs/2406.12763 arxiv], [Articles/Classif_neurips.pdf pdf]\]. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\n \[[https://arxiv.org/abs/2406.12763 arxiv], [Articles/Classif_neurips.pdf pdf]\], Neurips 2024. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>
 *Abstract:*
 We examine the continuous-time counterpart of mirror descent, namely mirror flow, on classification problems which are linearly separable. Such problems are minimised `at infinity' and have many possible solutions; we study which solution is preferred by the algorithm depending on the mirror potential. For exponential tailed losses and under mild assumptions on the potential, we show that the iterates converge in direction towards a $\\phi_\\infty$-maximum margin classifier. The function $\\phi_\\infty$ is the `horizon function' of the mirror potential and characterises its shape `at infinity'. When the potential is separable, a simple formula allows to compute this function.  We analyse several examples of potentials and provide numerical experiments highlighting our results.
