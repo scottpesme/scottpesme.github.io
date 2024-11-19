@@ -28,7 +28,7 @@ If you want a friendly introduction to the concept of implicit bias, I would rec
 == Publications
 
 \<p style=\"margin-bottom:1cm;\"> \</p\>
-If you are interested in the content of one of the papers, I would recommend having a look at the Twitter thread (or at the blogpost for the Neurips 2021 paper) before reading the paper. I like these formats as they allow to explain things in a (hopefully) more friendly way!
+If you are interested in the content of one of the papers, I would recommend having a look at the Bluesky thread (or at the blogpost for the Neurips 2021 paper) before reading the paper. I like these formats as they allow to explain things in a (hopefully) more friendly way!
 
 - S. Pesme, R-A. Dragomir, N. Flammarion. *Implicit Bias of Mirror Flow on Separable Data*. 
 \n \[[https://arxiv.org/abs/2406.12763 arxiv], [Articles/Classif_Neurips.pdf pdf]\], /NeurIPS/ 2024. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
@@ -46,13 +46,13 @@ In this work, we investigate the effect of momentum on the optimisation trajecto
 \<\/div\>
 
 - S. Pesme, N. Flammarion. *Saddle-to-Saddle Dynamics in Diagonal Linear Networks*. 
-\n \[[Poster/A0_s2s_neurips2023_hor.jpg poster], [https://twitter.com/pesme_scott/status/1721930808477323664 twitter thread], [https://arxiv.org/abs/2304.00488 arxiv], [Articles/Neurips_s2s-CR.pdf pdf]\],  /NeurIPS/ 2023. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\n \[[Poster/A0_s2s_neurips2023_hor.jpg poster], [https://bsky.app/profile/skate-the-apple.bsky.social/post/3lbcvc2ubzs2m (not a twitter) thread], [https://arxiv.org/abs/2304.00488 arxiv], [Articles/Neurips_s2s-CR.pdf pdf]\],  /NeurIPS/ 2023. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>
 *Abstract:* In this paper we fully describe the trajectory of gradient flow over diagonal linear networks in the limit of vanishing initialisation. We show that the limiting flow successively jumps from a saddle of the training loss to another until reaching the minimum $\\ell_1$-norm solution. This saddle-to-saddle dynamics translates to an incremental learning process as each saddle corresponds to the minimiser of the loss constrained to an active set outside of which the coordinates must be zero. We explicitly characterise the visited saddles as well as the jumping times through a recursive algorithm reminiscent of the Homotopy algorithm used for computing the Lasso path. Our proof leverages a convenient arc-length time-reparametrisation which enables to keep track of the heteroclinic transitions between the jumps. Our analysis requires negligible assumptions on the data, applies to both under and overparametrised settings and covers complex cases where there is no monotonicity of the number of active coordinates. We provide numerical experiments to support our findings.
 \<\/div\>
 
 - M. Even, S. Pesme, S. Gunasekar, N. Flammarion. *(S)GD over Diagonal Linear Networks: Implicit Regularisation, Large Stepsizes and Edge of Stability*. 
-\n \[[Poster/A0_stepsizes_neurips2023_hor.jpg poster], [https://twitter.com/pesme_scott/status/1643275722109366272 twitter thread], [https://arxiv.org/abs/2302.08982 arxiv], [Articles/stepsizes.pdf pdf]\],  /NeurIPS/ 2023. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\n \[[Poster/A0_stepsizes_neurips2023_hor.jpg poster], [https://bsky.app/profile/skate-the-apple.bsky.social/post/3lbctt6k3uc2m (not a twitter) thread], [https://arxiv.org/abs/2302.08982 arxiv], [Articles/stepsizes.pdf pdf]\],  /NeurIPS/ 2023. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>
 *Abstract:* In this paper, we investigate the impact of stochasticity and large stepsizes on the implicit regularisation of gradient descent (GD) and stochastic gradient descent (SGD) over diagonal linear networks. We prove the convergence of GD and SGD with macroscopic stepsizes in an overparametrised regression setting and characterise their solutions through an implicit regularisation problem. Our crisp characterisation leads to qualitative insights about the impact of stochasticity and stepsizes on the recovered solution. Specifically, we show that large stepsizes consistently benefit SGD for sparse regression problems, while they can hinder the recovery of sparse solutions for GD. These effects are magnified for stepsizes in a tight window just below the divergence threshold, in the “edge of stability” regime. Our findings are supported by experimental results.
 \<\/div\>
@@ -78,4 +78,4 @@ We consider the robust linear regression problem in the online setting where we 
 *Abstract:* Constant step-size Stochastic Gradient Descent exhibits two phases: a transient phase during which iterates make fast progress towards the optimum, followed by a stationary phase during which iterates oscillate around the optimal point. In this paper, we show that efficiently detecting this transition and appropriately decreasing the step size can lead to fast convergence rates. We analyse the classical statistical test proposed by Pflug (1983), based on the inner product between consecutive stochastic gradients. Even in the simple case where the objective function is quadratic we show that this test cannot lead to an adequate convergence diagnostic. We then propose a novel and simple statistical procedure that accurately detects stationarity and we provide experimental results showing state-of-the-art performance on synthetic and real-world datasets. 
 \<\/div\>
 
-You can have a look at my [https://scholar.google.com/citations?user=eBViQXoAAAAJ&hl=fr&oi=ao Google scholar] webpage or follow me on [https://mastodon.social/%40scottymeloty Mastodon]. 
+You can have a look at my [https://scholar.google.com/citations?user=eBViQXoAAAAJ&hl=fr&oi=ao Google scholar] webpage or follow me to the (blue)  [https://bsky.app/profile/skate-the-apple.bsky.social sky]! 

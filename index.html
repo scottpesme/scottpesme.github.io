@@ -44,7 +44,7 @@ I did my master thesis in convex optimisation at EPFL in the MLO group under the
 <p>If you want a friendly introduction to the concept of implicit bias, I would recommend having a look at the <a href="https://francisbach.com/implicit-bias-sgd/" target=&ldquo;_blank&rdquo; >blogpost</a> that <a href="https://www.di.ens.fr/~pillaud/" target=&ldquo;_blank&rdquo; >Loucas</a> kindly proposed me to write with him for Francis Bach's blog, you can also have a look at Chapter 2 in my <a href="Articles/Scott_PhD_Manuscript.pdf" target=&ldquo;_blank&rdquo; >PhD manuscript</a>. And if you want an introduction to diagonal linear networks, you can have a look at Chapter 3 in my <a href="Articles/Scott_PhD_Manuscript.pdf" target=&ldquo;_blank&rdquo; >PhD manuscript</a>.</p>
 <h2>Publications</h2>
 <p><p style="margin-bottom:1cm;"&gt; </p>
-If you are interested in the content of one of the papers, I would recommend having a look at the Twitter thread (or at the blogpost for the Neurips 2021 paper) before reading the paper. I like these formats as they allow to explain things in a (hopefully) more friendly way!</p>
+If you are interested in the content of one of the papers, I would recommend having a look at the Bluesky thread (or at the blogpost for the Neurips 2021 paper) before reading the paper. I like these formats as they allow to explain things in a (hopefully) more friendly way!</p>
 <ul>
 <li><p>S. Pesme, R-A. Dragomir, N. Flammarion. <b>Implicit Bias of Mirror Flow on Separable Data</b>. 
 <br /> [<a href="https://arxiv.org/abs/2406.12763" target=&ldquo;_blank&rdquo; >arxiv</a>, <a href="Articles/Classif_Neurips.pdf" target=&ldquo;_blank&rdquo; >pdf</a>], <i>NeurIPS</i> 2024. <span class="toggle-trigger">[Show Abstract]<span> 
@@ -65,7 +65,7 @@ In this work, we investigate the effect of momentum on the optimisation trajecto
 </ul>
 <ul>
 <li><p>S. Pesme, N. Flammarion. <b>Saddle-to-Saddle Dynamics in Diagonal Linear Networks</b>. 
-<br /> [<a href="Poster/A0_s2s_neurips2023_hor.jpg" target=&ldquo;_blank&rdquo; >poster</a>, <a href="https://twitter.com/pesme_scott/status/1721930808477323664" target=&ldquo;_blank&rdquo; >twitter thread</a>, <a href="https://arxiv.org/abs/2304.00488" target=&ldquo;_blank&rdquo; >arxiv</a>, <a href="Articles/Neurips_s2s-CR.pdf" target=&ldquo;_blank&rdquo; >pdf</a>],  <i>NeurIPS</i> 2023. <span class="toggle-trigger">[Show Abstract]<span> 
+<br /> [<a href="Poster/A0_s2s_neurips2023_hor.jpg" target=&ldquo;_blank&rdquo; >poster</a>, <a href="https://bsky.app/profile/skate-the-apple.bsky.social/post/3lbcvc2ubzs2m" target=&ldquo;_blank&rdquo; >(not a twitter) thread</a>, <a href="https://arxiv.org/abs/2304.00488" target=&ldquo;_blank&rdquo; >arxiv</a>, <a href="Articles/Neurips_s2s-CR.pdf" target=&ldquo;_blank&rdquo; >pdf</a>],  <i>NeurIPS</i> 2023. <span class="toggle-trigger">[Show Abstract]<span> 
 <div class="toggle-wrap">
 <b>Abstract:</b> In this paper we fully describe the trajectory of gradient flow over diagonal linear networks in the limit of vanishing initialisation. We show that the limiting flow successively jumps from a saddle of the training loss to another until reaching the minimum $\ell_1$-norm solution. This saddle-to-saddle dynamics translates to an incremental learning process as each saddle corresponds to the minimiser of the loss constrained to an active set outside of which the coordinates must be zero. We explicitly characterise the visited saddles as well as the jumping times through a recursive algorithm reminiscent of the Homotopy algorithm used for computing the Lasso path. Our proof leverages a convenient arc-length time-reparametrisation which enables to keep track of the heteroclinic transitions between the jumps. Our analysis requires negligible assumptions on the data, applies to both under and overparametrised settings and covers complex cases where there is no monotonicity of the number of active coordinates. We provide numerical experiments to support our findings.
 </div></p>
@@ -73,7 +73,7 @@ In this work, we investigate the effect of momentum on the optimisation trajecto
 </ul>
 <ul>
 <li><p>M. Even, S. Pesme, S. Gunasekar, N. Flammarion. <b>(S)GD over Diagonal Linear Networks: Implicit Regularisation, Large Stepsizes and Edge of Stability</b>. 
-<br /> [<a href="Poster/A0_stepsizes_neurips2023_hor.jpg" target=&ldquo;_blank&rdquo; >poster</a>, <a href="https://twitter.com/pesme_scott/status/1643275722109366272" target=&ldquo;_blank&rdquo; >twitter thread</a>, <a href="https://arxiv.org/abs/2302.08982" target=&ldquo;_blank&rdquo; >arxiv</a>, <a href="Articles/stepsizes.pdf" target=&ldquo;_blank&rdquo; >pdf</a>],  <i>NeurIPS</i> 2023. <span class="toggle-trigger">[Show Abstract]<span> 
+<br /> [<a href="Poster/A0_stepsizes_neurips2023_hor.jpg" target=&ldquo;_blank&rdquo; >poster</a>, <a href="https://bsky.app/profile/skate-the-apple.bsky.social/post/3lbctt6k3uc2m" target=&ldquo;_blank&rdquo; >(not a twitter) thread</a>, <a href="https://arxiv.org/abs/2302.08982" target=&ldquo;_blank&rdquo; >arxiv</a>, <a href="Articles/stepsizes.pdf" target=&ldquo;_blank&rdquo; >pdf</a>],  <i>NeurIPS</i> 2023. <span class="toggle-trigger">[Show Abstract]<span> 
 <div class="toggle-wrap">
 <b>Abstract:</b> In this paper, we investigate the impact of stochasticity and large stepsizes on the implicit regularisation of gradient descent (GD) and stochastic gradient descent (SGD) over diagonal linear networks. We prove the convergence of GD and SGD with macroscopic stepsizes in an overparametrised regression setting and characterise their solutions through an implicit regularisation problem. Our crisp characterisation leads to qualitative insights about the impact of stochasticity and stepsizes on the recovered solution. Specifically, we show that large stepsizes consistently benefit SGD for sparse regression problems, while they can hinder the recovery of sparse solutions for GD. These effects are magnified for stepsizes in a tight window just below the divergence threshold, in the “edge of stability” regime. Our findings are supported by experimental results.
 </div></p>
@@ -106,10 +106,10 @@ We consider the robust linear regression problem in the online setting where we 
 </div></p>
 </li>
 </ul>
-<p>You can have a look at my <a href="https://scholar.google.com/citations?user=eBViQXoAAAAJ&amp;hl=fr&amp;oi=ao" target=&ldquo;_blank&rdquo; >Google scholar</a> webpage or follow me on <a href="https://mastodon.social/%40scottymeloty" target=&ldquo;_blank&rdquo; >Mastodon</a>.</p>
+<p>You can have a look at my <a href="https://scholar.google.com/citations?user=eBViQXoAAAAJ&amp;hl=fr&amp;oi=ao" target=&ldquo;_blank&rdquo; >Google scholar</a> webpage or follow me in the (blue)  <a href="https://bsky.app/profile/skate-the-apple.bsky.social" target=&ldquo;_blank&rdquo; >sky</a>.</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2024-11-14 09:49:09 CET, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2024-11-19 17:59:04 CET, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
