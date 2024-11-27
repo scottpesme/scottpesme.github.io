@@ -171,17 +171,7 @@ def standardconf():
     src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
   <body>
-  
-  [analytics]
-  <script type="text/javascript">
-  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-  </script>
-  <script type="text/javascript">
-  try {
-      var pageTracker = _gat._getTracker("|");
-      pageTracker._trackPageview();
-  } catch(err) {}</script>
+ 
   
   [menustart]
   <table summary="Table for page layout." id="tlayout">
