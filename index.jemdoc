@@ -39,7 +39,7 @@ We examine the continuous-time counterpart of mirror descent, namely mirror flow
 
 
 - H. Papazov, S. Pesme, N. Flammarion. *Leveraging Continuous Time to Understand Momentum When Training Diagonal Linear Networks*. 
-\n \[[https://arxiv.org/abs/2403.05293 arxiv], [Articles/Implicit_Bias_Momentum.pdf pdf]\],  /AISTATS/ 2024. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\n \[[Poster/aistats_poster.pdf poster], [https://arxiv.org/abs/2403.05293 arxiv], [Articles/Implicit_Bias_Momentum.pdf pdf]\],  /AISTATS/ 2024. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
 \<div class=\"toggle-wrap\"\>
 *Abstract:*
 In this work, we investigate the effect of momentum on the optimisation trajectory of gradient descent. We leverage a continuous-time approach in the analysis of momentum gradient descent with step size $\\gamma$ and momentum parameter $\\beta$ that allows us to identify an intrinsic quantity $\\lambda = \\gamma /(1 - \\beta)^2 $ which uniquely defines the optimisation path and provides a simple acceleration rule. When training a $2$-layer diagonal linear network in an overparametrised regression setting, we characterise the recovered solution through an implicit regularisation problem. We then prove that small values of $\\lambda$ help to recover sparse solutions. Finally, we give similar but weaker results for stochastic momentum gradient descent. We provide numerical experiments which support our claims.
