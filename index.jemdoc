@@ -5,13 +5,11 @@
 ~~~
 {}{img_left}{Photo/Ggscholar.png}{}{200px}{200px}{}
 
-== Hi !
+== Hi there!
 Since October 2024, I am a post-doc in the Thoth team at Inria Grenoble, under the supervision of [https://lear.inrialpes.fr/people/mairal/ Julien Mairal]. 
 
 Prior to that, I was a PhD student at EPFL in the [https://www.epfl.ch/labs/tml/ Theory of Machine Learning group] and advised by [https://people.epfl.ch/nicolas.flammarion Nicolas Flammarion]. I defended my PhD thesis in June 2024, the thesis is entitled "Deep Learning Theory Through the Lens of Diagonal Linear Networks" and you can find the manuscript [Articles/Scott_PhD_Manuscript.pdf here].
 
-I graduated from [https://www.polytechnique.edu/ École Polytechnique] in 2019 and have a master degree from [https://ens-paris-saclay.fr/en/ ENS Paris-Saclay] in mathematics, vision and machine learning ([https://www.master-mva.com/ MVA]).
-I did my master thesis in convex optimisation at EPFL in the MLO group under the supervision of [http://www.cmap.polytechnique.fr/~aymeric.dieuleveut/ Aymeric Dieuleveut] and [https://people.epfl.ch/martin.jaggi Martin Jaggi].
 
 == Contact
 
@@ -27,8 +25,17 @@ If you want a friendly introduction to the concept of implicit bias, I would rec
 
 == Publications
 
+
 \<p style=\"margin-bottom:1cm;\"> \</p\>
 If you are interested in the content of one of the papers, I would recommend having a look at the Bluesky thread (or at the blogpost for the Neurips 2021 paper) before reading the paper. I like these formats as they allow to explain things in a (hopefully) more friendly way!
+
+- E. Boursier, S. Pesme, R-A. Dragomir. *A Theoretical Framework for Grokking: Interpolation followed by Riemannian Norm Minimisation*. 
+\n \[[https://arxiv.org/abs/2505.20172? arxiv], [Articles/Grokking.pdf pdf]\]. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
+\<div class=\"toggle-wrap\"\>
+*Abstract:*
+We study the dynamics of gradient flow with small weight decay on general training losses $F: \\mathbb{R}^d \to \\mathbb{R}$. Under mild regularity assumptions and assuming convergence of the unregularised gradient flow, we show that the trajectory with weight decay~$\\lambda$ exhibits a two-phase behaviour as $\\lambda \to 0$. During the initial fast phase, the trajectory follows the unregularised gradient flow and converges to a manifold of critical points of $F$. Then, at time of order $1/\lambda$, the trajectory enters a slow drift phase and follows a Riemannian gradient flow minimising the $\\ell_2$-norm of the parameters. This purely optimisation-based phenomenon offers a natural explanation for the \textit{grokking} effect observed in deep learning, where the training loss rapidly reaches zero while the test loss plateaus for an extended period before suddenly improving. We argue that this generalisation jump can be attributed to the slow norm reduction induced by weight decay, as explained by our analysis. We validate this mechanism empirically on several synthetic regression tasks.
+\<\/div\>
+
 
 - S. Pesme, R-A. Dragomir, N. Flammarion. *Implicit Bias of Mirror Flow on Separable Data*. 
 \n \[[Poster/poster_IB_MF.pdf poster], [https://arxiv.org/abs/2406.12763 arxiv], [Articles/Classif_Neurips.pdf pdf]\], /NeurIPS/ 2024. \<span class=\"toggle-trigger\"\>\[Show Abstract\]\<span\> 
